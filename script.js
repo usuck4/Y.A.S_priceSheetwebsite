@@ -17,8 +17,8 @@ const loadTimeEl = document.getElementById('load-time');
 // Configuration - YOU MUST CHANGE THESE!
 const CONFIG = {
     github: {
-        username: 'your-username',      // ← CHANGE THIS to your GitHub username
-        repo: 'your-repo-name',         // ← CHANGE THIS to your repository name
+        username: 'usuck4',      // ← CHANGE THIS to your GitHub username
+        repo: 'Y.A.S_priceSheetwebsite',         // ← CHANGE THIS to your repository name
         branch: 'main'
     },
     imagePaths: [
