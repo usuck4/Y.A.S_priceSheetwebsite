@@ -14,8 +14,9 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1><i class="fas fa-chart-line"></i> Your Business Name</h1>
-                <p class="tagline">Quality Products • Best Prices • Daily Updates</p>
+                <h1><i class="moto-icon"></i> Your Smart Address</h1>
+                <h3>عنوانك الذكي</h3>
+                <p class="tagline">Motorola Phones • Best Prices • Daily Updates</p>
             </div>
             <nav>
                 <ul>
@@ -63,13 +64,29 @@
                     </button>
                 </div>
             </div> -->
-        </section>
+            
+            <!-- <div class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Motorola Parts</h3>
+                    <p>Genuine & Compatible</p>
+                    <div class="moto-badge">
+                        <span class="moto-mini-logo"></span> Certified
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
         <!-- Price Sheet Section -->
         <section id="prices" class="price-section">
             <div class="section-header">
                 <h2><i class="fas fa-file-invoice-dollar"></i> Daily Price Sheet</h2>
-                <p class="section-subtitle">Updated every morning./ًيتم تحديث الأسعار كل يوم صباحا</p>
+                <p class="section-subtitle">Updated every morning at 11:00 AM./ يتم تحديث الأسعار كل يوم الساعة الحادية عشرة صباحا</p>
+                <div class="moto-tag">
+                    <span class="moto-mini-logo"></span> Official Motorola Parts Distributor
+                </div>
             </div>
             
             <!-- Image Container -->
@@ -77,7 +94,7 @@
                 <div class="image-wrapper">
                     <img 
                         src="prices/today.jpg" 
-                        alt="Today's Price Sheet" 
+                        alt="Today's Motorola Parts Price Sheet" 
                         id="price-image"
                         class="price-sheet-image"
                         loading="lazy"
@@ -96,13 +113,15 @@
                 <div id="loading" class="loading">
                     <div class="spinner"></div>
                     <p>Loading today's price sheet...</p>
+                    <p class="loading-note">Fetching latest Motorola parts pricing</p>
                 </div>
                 
                 <div id="error-message" class="error-message hidden">
                     <i class="fas fa-exclamation-triangle"></i>
                     <h3>Price sheet not available yet</h3>
-                    <p>Today's price sheet is being prepared. Please check back soon.</p>
-                    <p>In the meantime, you can <a href="#contact">contact us</a> for pricing.</p>
+                    <p>Today's Motorola parts price sheet is being prepared.</p>
+                    <p>Prices are updated daily at 11:00 AM .</p>
+                    <p>In the meantime, you can <a href="#contact">contact us</a> for specific part pricing.</p>
                 </div>
             </div>
             
@@ -110,15 +129,54 @@
             <div class="image-info">
                 <div class="info-item">
                     <i class="fas fa-info-circle"></i>
-                    <span>To ensure you see the latest prices, refresh the page if you've been here for a while.</span>
+                    <span>All prices are in USD. Contact us for bulk orders and wholesale pricing.</span>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-mobile-alt"></i>
                     <span>On mobile: Pinch to zoom or tap the image for full view.</span>
                 </div>
+                <div class="info-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>All parts come with 30-day warranty and are genuine Motorola certified.</span>
+                </div>
             </div>
             
-            <!-- Previous Days (Optional) -->
+            <!-- Parts Catalog Section -->
+            <div id="parts" class="parts-catalog">
+                <h3><i class="fas fa-cogs"></i> Motorola Parts Categories</h3>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <h4>Phone Parts</h4>
+                        <p>Screens, batteries, cameras, charging ports</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <h4>Radio Equipment</h4>
+                        <p>Two-way radios, antennas, accessories</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>Repair Tools</h4>
+                        <p>Screwdrivers, pry tools, adhesive kits</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h4>Accessories</h4>
+                        <p>Chargers, cables, cases, headphones</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Previous Days -->
             <div class="previous-days">
                 <h3><i class="fas fa-history"></i> Previous Price Sheets</h3>
                 <div id="previous-list" class="previous-list">
@@ -129,32 +187,49 @@
 
         <!-- About Section -->
         <section id="about" class="about-section">
-            <h2><i class="fas fa-store"></i> About Our Business</h2>
+            <h2><i class="moto-icon-small"></i> About MotoParts Direct</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>We provide quality products with transparent pricing updated daily. Our commitment is to offer the best value to our customers.</p>
+                    <p>We are an authorized Motorola parts distributor specializing in genuine and high-quality compatible parts for all Motorola devices. Our daily price sheets ensure you always get the most current pricing.</p>
+                    
+                    <h4><i class="fas fa-award"></i> Why Choose Us</h4>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Genuine Motorola certified parts</li>
+                        <li><i class="fas fa-check-circle"></i> Daily updated pricing</li>
+                        <li><i class="fas fa-check-circle"></i> 30-day warranty on all parts</li>
+                        <li><i class="fas fa-check-circle"></i> Bulk order discounts available</li>
+                        <li><i class="fas fa-check-circle"></i> Same-day shipping on orders before 3 PM</li>
+                    </ul>
+                    
                     <h4><i class="fas fa-clock"></i> Business Hours</h4>
                     <ul class="hours-list">
-                        <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
-                        <li>Saturday: 9:00 AM - 4:00 PM</li>
+                        <li>Monday - Friday: 8:00 AM - 6:00 PM EST</li>
+                        <li>Saturday: 9:00 AM - 4:00 PM EST</li>
                         <li>Sunday: Closed</li>
                     </ul>
                 </div>
                 <div class="about-features">
                     <div class="feature">
-                        <i class="fas fa-bolt"></i>
-                        <h5>Daily Updates</h5>
-                        <p>Prices updated every morning</p>
+                        <div class="feature-icon moto-feature">
+                            <span class="moto-mini-logo"></span>
+                        </div>
+                        <h5>Motorola Authorized</h5>
+                        <p>Official distributor since 2015</p>
                     </div>
                     <div class="feature">
-                        <i class="fas fa-check-circle"></i>
-                        <h5>Quality Guarantee</h5>
-                        <p>Premium products only</p>
+                        <i class="fas fa-shipping-fast"></i>
+                        <h5>Fast Shipping</h5>
+                        <p>Same-day on orders before 3 PM</p>
                     </div>
                     <div class="feature">
                         <i class="fas fa-headset"></i>
-                        <h5>Customer Support</h5>
-                        <p>Always here to help</p>
+                        <h5>Expert Support</h5>
+                        <p>Motorola certified technicians</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h5>Quality Guarantee</h5>
+                        <p>30-day warranty on all parts</p>
                     </div>
                 </div>
             </div>
@@ -167,23 +242,40 @@
                 <div class="contact-card">
                     <i class="fas fa-phone"></i>
                     <h4>Call Us</h4>
-                    <p>+1 (555) 123-4567</p>
+                    <p>+1 (800) MOTOROLA</p>
+                    <p class="contact-note">(668-67652)</p>
                 </div>
                 <div class="contact-card">
                     <i class="fas fa-envelope"></i>
                     <h4>Email</h4>
-                    <p>info@yourbusiness.com</p>
+                    <p>parts@motopartsdirect.com</p>
+                    <p class="contact-note">Quotes: quotes@motopartsdirect.com</p>
                 </div>
                 <div class="contact-card">
                     <i class="fas fa-map-marker-alt"></i>
                     <h4>Visit Us</h4>
-                    <p>123 Business Street<br>Your City, State 12345</p>
+                    <p>1300 Motorola Way<br>Schaumburg, IL 60196</p>
+                    <p class="contact-note">Warehouse & Showroom</p>
                 </div>
                 <div class="contact-card">
                     <i class="fas fa-clock"></i>
                     <h4>Response Time</h4>
                     <p>Within 2 hours during business hours</p>
+                    <p class="contact-note">24/7 online orders</p>
                 </div>
+            </div>
+            
+            <!-- Quick Contact Form -->
+            <div class="quick-contact">
+                <h4><i class="fas fa-paper-plane"></i> Quick Price Inquiry</h4>
+                <div class="contact-form">
+                    <input type="text" placeholder="Part Number or Description" class="form-input">
+                    <input type="email" placeholder="Your Email" class="form-input">
+                    <button class="btn-submit">
+                        <i class="fas fa-paper-plane"></i> Get Quote
+                    </button>
+                </div>
+                <p class="form-note">We'll respond with pricing within 2 business hours.</p>
             </div>
         </section>
     </main>
@@ -193,20 +285,32 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3><i class="fas fa-chart-line"></i> Your Business Name</h3>
-                    <p>Daily price transparency since 2024</p>
+                    <h3><i class="moto-icon"></i> MotoParts Direct</h3>
+                    <p>Authorized Motorola Parts Distributor since 2015</p>
+                    <div class="footer-badges">
+                        <span class="badge"><i class="fas fa-shield-alt"></i> Certified</span>
+                        <span class="badge"><i class="fas fa-award"></i> Authorized</span>
+                        <span class="badge"><i class="fas fa-star"></i> Trusted</span>
+                    </div>
                 </div>
                 <div class="footer-update">
-                    <p><i class="fas fa-sync"></i> Prices updated daily at 8:00 AM</p>
+                    <p><i class="fas fa-sync"></i> Prices updated daily at 8:00 AM EST</p>
                     <p id="page-version">Page loaded: <span id="load-time"></span></p>
+                    <p class="update-note">Next update: Tomorrow 8:00 AM</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Your Business Name. All rights reserved.</p>
+                <p>&copy; 2024 MotoParts Direct. Motorola and the Stylized M Logo are registered trademarks of Motorola Trademark Holdings, LLC.</p>
                 <p class="github-note">
                     <i class="fab fa-github"></i> 
                     This page updates automatically when new price sheets are uploaded to GitHub.
                 </p>
+                <div class="footer-links">
+                    <a href="#"><i class="fas fa-file-contract"></i> Terms</a>
+                    <a href="#"><i class="fas fa-lock"></i> Privacy</a>
+                    <a href="#"><i class="fas fa-truck"></i> Shipping</a>
+                    <a href="#"><i class="fas fa-undo"></i> Returns</a>
+                </div>
             </div>
         </div>
     </footer>
@@ -215,16 +319,17 @@
     <div id="zoom-modal" class="modal hidden">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>Price Sheet - Full View</h3>
+                <h3><i class="moto-icon-small"></i> Motorola Parts Price Sheet - Full View</h3>
                 <button id="close-modal" class="close-btn">&times;</button>
             </div>
             <div class="modal-body">
-                <img id="modal-image" src="" alt="Price Sheet Full View" class="modal-image">
+                <img id="modal-image" src="" alt="Motorola Price Sheet Full View" class="modal-image">
             </div>
             <div class="modal-footer">
                 <button id="download-modal-btn" class="btn-download">
                     <i class="fas fa-download"></i> Download Full Image
                 </button>
+                <p class="modal-note">All prices subject to change. Contact for bulk pricing.</p>
             </div>
         </div>
     </div>
